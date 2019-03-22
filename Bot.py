@@ -15,6 +15,7 @@ async def on_ready():
 Mike.remove_command('help')
 
 @Mike.command(pass_context = True)
+@commands.has_permissions(administrator = True)
 async def say(ctx, *args):
     mesg = ' '.join(args)
     await Mike.delete_message(ctx.message)
