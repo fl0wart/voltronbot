@@ -3,13 +3,13 @@ import discord
 from discord.ext.commands import Bot
 
 
-Mike = Bot('s!')
+Mike = Bot('x!')
 
 @Mike.event
 async def on_ready():
     print ("Starting up")
     print ("My username is " + Mike.user.name + " and i am running with the ID: " + Mike.user.id)
-    await Mike.change_presence(game=discord.Game(name="the police station! 👀", type=3))
+    await Mike.change_presence(game=discord.Game(name="in heaven... 💫", type=0))
     print ("Started")
     
 Mike.remove_command('help')
