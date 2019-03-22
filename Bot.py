@@ -21,4 +21,4 @@ async def say(ctx, *args):
     return await Mike.say(mesg)
 
 
-Mike.run('NTU2Mzc1NDg1NjM5MTYzOTI1.D241eA.mX9gcWly0SQn9yLIEzSCtwwmdRQ
+Mike.run('NTU4NTQyODkwMzA2MTA5NDUy.D3YXMg.nHPbOLS3AFV3J-D9s3jK6DZWwEg')
